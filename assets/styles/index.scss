@@ -1,0 +1,220 @@
+.hero{
+    width: 1440px;
+    height: 1000px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 1170px;
+    height: 757px;
+    left: 135px;
+    top: 121px;
+    margin-left: 9.4%;
+    margin-right: 9.4%;
+    margin-top: 12%;
+}
+
+.head{
+    width: 450px;
+    height: 157px;
+
+    h3{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #898F8F;
+    }
+
+    h1{
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 66px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFCC00;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    .divider{
+        width: 450px;
+        height: 20px;
+        left: 360px;
+        top: 137px;
+    }
+}
+
+h3, h4, p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+
+h1, h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+}
+
+.view{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #666666;
+  }
+
+  .slider{
+    width: 1030px;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    gap: 85px;
+  }
+
+  .left{
+    width: 430px;
+    height: 430px;
+    left: 70px;
+    top: 262px;
+
+    .image{
+        width: 430px;
+        height: 430px;
+        left: 70px;
+        top: 262px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .photo{
+        width: 400px;
+        height: 400px;
+        left: 85px;
+        top: 277px;
+    }
+
+    .border-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        transform: translate(-15px, 85px);
+    }
+
+    .border-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        transform: translate(-15px, -85px);
+    }
+
+}
+
+.slider-divider{
+    width: 560px;
+    height: 0px;
+    left: 585px;
+    top: 197px;
+}
+
+.right{
+    width: 430px;
+    height: 420px;
+    left: 670px;
+    top: 267px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+
+    .info{
+        width: 283px;
+        height: 122px;
+        left: 744px;
+        top: 267px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 5px;
+        width: 135px;
+        height: 30px;
+        left: 818px;
+        top: 419px;
+        padding-bottom: 49px;
+    }
+
+    p{
+        width: 430px;
+        height: 116px;
+        left: 670px;
+        top: 498px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #333333;
+    }
+
+    .decore{
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .view{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 10px;
+        width: 118px;
+        height: 24px;
+        left: 827px;
+        top: 663px;
+        border: 1px solid #FFCC00;
+        background-color: #FFFFFF;
+    }
+}
+
+h2{
+    width: 235px;
+    height: 34px;
+    left: 768px;
+    top: 267px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+h4{
+    width: 283px;
+    height: 28px;
+    left: 744px;
+    top: 361px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #666666;
+}
